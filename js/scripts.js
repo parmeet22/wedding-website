@@ -214,11 +214,7 @@ $(document).ready(function () {
             {
                 method: 'POST',
                 redirect:"follow",
-                mode:"no-cors",
-                body: data,
-                headers: {
-                    'Content-Type': 'text/plain;charset=utf-8',
-                }
+                body: data
             })
                 .then(function (data) {
                     console.log(data);
