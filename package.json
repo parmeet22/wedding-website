@@ -4,7 +4,8 @@
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp":"gulp"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
     "template",
     "website template"
   ],
-  "author": "Ram Patra",
+  "author": "Parmeet singh",
   "license": "GPL-3.0",
   "homepage": "https://github.com/rampatra/wedding-website",
   "devDependencies": {
