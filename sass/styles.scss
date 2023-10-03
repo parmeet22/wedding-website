@@ -246,7 +246,11 @@ Navigation
   visibility: hidden;
   transition: all 300ms ease-in-out;
 }
-
+@media only screen and (max-width:500px) {
+  .hero{
+    background-image: url('../img/background-mobile.jpeg') !important;
+  }
+}
 /* ==========================================================================
 Hero
 ========================================================================== */
