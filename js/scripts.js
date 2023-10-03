@@ -214,6 +214,9 @@ $(document).ready(function () {
             {
                 method: 'POST',
                 redirect:"follow",
+                headers:{
+                    "Content-type":"application/x-www-form-urlencoded; charset=UTF-8"
+                },
                 body: data
             })
                 .then(function (data) {
