@@ -763,7 +763,6 @@ Google map
 }
 #map-content {
   padding: 50px 60px;
-  background: #fff;
   -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
   transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
 }
@@ -774,6 +773,10 @@ Google map
   display: inline-block;
   -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
   transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
+}
+
+.rsvp-form-container{
+  background: #f8f9fd;
 }
 .toggle-map-content {
   opacity: 0;
